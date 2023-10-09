@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Mission_Definition xmlns="http://www.astos.de/schema/astos/9.16/scenario" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.astos.de/schema/astos/9.16/scenario Scenario.xsd" checksum="a2006495579">
+	<All_Models>
+		<Item>model/astos/Model_Data.xml</Item>
+	</All_Models>
+	<All_Variables>
+		<Item>model/astos/Variables.xml</Item>
+	</All_Variables>
+	<All_Mission_Constraints>
+		<Item>model/astos/Mission_Constraints.xml</Item>
+	</All_Mission_Constraints>
+	<All_Model_Definitions>
+		<Item>model/astos/Model_Definition.xml</Item>
+	</All_Model_Definitions>
+	<Description></Description>
+	<Cost_Function_Terms></Cost_Function_Terms>
+	<Database_Settings>
+		<DB_Connections>
+			<Item>
+				<ID>Aero_1</ID>
+				<Connector>EXCEL File Connector</Connector>
+				<Location>..\Dorado CP vs Mach.csv</Location>
+				<Port>---</Port>
+				<DB_Name>---</DB_Name>
+			</Item>
+			<Item>
+				<ID>Mass_Flow_1</ID>
+				<Connector>EXCEL File Connector</Connector>
+				<Location>..\H300S Mdotp v Time.csv</Location>
+				<Port>---</Port>
+				<DB_Name>---</DB_Name>
+			</Item>
+		</DB_Connections>
+	</Database_Settings>
+	<Features></Features>
+</Mission_Definition>

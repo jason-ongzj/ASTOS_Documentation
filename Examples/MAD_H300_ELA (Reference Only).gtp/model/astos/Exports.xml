@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Exports xmlns="http://www.astos.de/schema/astos/9.16/scenario" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.astos.de/schema/astos/9.16/scenario Scenario.xsd" checksum="a1403082936">
+	<Item>
+		<ID>MAD_H300_Compiled</ID>
+		<Automatic_Creation>false</Automatic_Creation>
+		<Description></Description>
+		<Excel>
+			<Data_Export>
+				<Item>
+					<Name>flight_time</Name>
+					<Data_Type>Auxiliary function</Data_Type>
+					<Pattern>All values</Pattern>
+					<Data_Source>Simulation</Data_Source>
+					<Phase_Index>0</Phase_Index>
+					<File_Name>./exports/MAD_H300_Nominal_Trajectory.xlsx</File_Name>
+					<Sheet_ID>Sheet1</Sheet_ID>
+					<Data_Cell>A2</Data_Cell>
+					<Consecutive>Column</Consecutive>
+					<Delete_Remainder>No</Delete_Remainder>
+				</Item>
+				<Item>
+					<Name>flightpath_speed~MAD_H300</Name>
+					<Data_Type>Auxiliary function</Data_Type>
+					<Pattern>All values</Pattern>
+					<Data_Source>Simulation</Data_Source>
+					<Phase_Index>0</Phase_Index>
+					<File_Name>./exports/MAD_H300_Nominal_Trajectory.xlsx</File_Name>
+					<Sheet_ID>Sheet1</Sheet_ID>
+					<Data_Cell>B2</Data_Cell>
+					<Consecutive>Column</Consecutive>
+					<Delete_Remainder>No</Delete_Remainder>
+				</Item>
+				<Item>
+					<Name>dynamic_pressure~MAD_H300</Name>
+					<Data_Type>Auxiliary function</Data_Type>
+					<Pattern>All values</Pattern>
+					<Data_Source>Simulation</Data_Source>
+					<Phase_Index>0</Phase_Index>
+					<File_Name>./exports/MAD_H300_Nominal_Trajectory.xlsx</File_Name>
+					<Sheet_ID>Sheet1</Sheet_ID>
+					<Data_Cell>C2</Data_Cell>
+					<Consecutive>Column</Consecutive>
+					<Delete_Remainder>No</Delete_Remainder>
+				</Item>
+				<Item>
+					<Name>mach~MAD_H300</Name>
+					<Data_Type>Auxiliary function</Data_Type>
+					<Pattern>All values</Pattern>
+					<Data_Source>Simulation</Data_Source>
+					<Phase_Index>0</Phase_Index>
+					<File_Name>./exports/MAD_H300_Nominal_Trajectory.xlsx</File_Name>
+					<Sheet_ID>Sheet1</Sheet_ID>
+					<Data_Cell>D2</Data_Cell>
+					<Consecutive>Column</Consecutive>
+					<Delete_Remainder>No</Delete_Remainder>
+				</Item>
+				<Item>
+					<Name>mass_total~MAD_H300</Name>
+					<Data_Type>Auxiliary function</Data_Type>
+					<Pattern>All values</Pattern>
+					<Data_Source>Simulation</Data_Source>
+					<Phase_Index>0</Phase_Index>
+					<File_Name>./exports/MAD_H300_Nominal_Trajectory.xlsx</File_Name>
+					<Sheet_ID>Sheet1</Sheet_ID>
+					<Data_Cell>E2</Data_Cell>
+					<Consecutive>Column</Consecutive>
+					<Delete_Remainder>No</Delete_Remainder>
+				</Item>
+				<Item>
+					<Name>altitude~MAD_H300@Earth</Name>
+					<Data_Type>Auxiliary function</Data_Type>
+					<Pattern>All values</Pattern>
+					<Data_Source>Simulation</Data_Source>
+					<Phase_Index>0</Phase_Index>
+					<File_Name>./exports/MAD_H300_Nominal_Trajectory.xlsx</File_Name>
+					<Sheet_ID>Sheet1</Sheet_ID>
+					<Data_Cell>F2</Data_Cell>
+					<Consecutive>Column</Consecutive>
+					<Delete_Remainder>No</Delete_Remainder>
+				</Item>
+				<Item>
+					<Name>thrust~MAD_H300</Name>
+					<Data_Type>Auxiliary function</Data_Type>
+					<Pattern>All values</Pattern>
+					<Data_Source>Simulation</Data_Source>
+					<Phase_Index>0</Phase_Index>
+					<File_Name>./exports/MAD_H300_Nominal_Trajectory.xlsx</File_Name>
+					<Sheet_ID>Sheet1</Sheet_ID>
+					<Data_Cell>G2</Data_Cell>
+					<Consecutive>Column</Consecutive>
+					<Delete_Remainder>No</Delete_Remainder>
+				</Item>
+				<Item>
+					<Name>thrust_vacuum~MAD_Engine:MAD_H300</Name>
+					<Data_Type>Auxiliary function</Data_Type>
+					<Pattern>All values</Pattern>
+					<Data_Source>Simulation</Data_Source>
+					<Phase_Index>0</Phase_Index>
+					<File_Name>./exports/MAD_H300_Nominal_Trajectory.xlsx</File_Name>
+					<Sheet_ID>Sheet1</Sheet_ID>
+					<Data_Cell>H2</Data_Cell>
+					<Consecutive>Column</Consecutive>
+					<Delete_Remainder>No</Delete_Remainder>
+				</Item>
+				<Item>
+					<Name>drag_coeff~MAD_H300</Name>
+					<Data_Type>Auxiliary function</Data_Type>
+					<Pattern>All values</Pattern>
+					<Data_Source>Simulation</Data_Source>
+					<Phase_Index>0</Phase_Index>
+					<File_Name>./exports/MAD_H300_Nominal_Trajectory.xlsx</File_Name>
+					<Sheet_ID>Sheet1</Sheet_ID>
+					<Data_Cell>I2</Data_Cell>
+					<Consecutive>Column</Consecutive>
+					<Delete_Remainder>No</Delete_Remainder>
+				</Item>
+				<Item>
+					<Name>acceleration~MAD_H300#J2000@Earth</Name>
+					<Data_Type>Auxiliary function</Data_Type>
+					<Pattern>All values</Pattern>
+					<Data_Source>Simulation</Data_Source>
+					<Phase_Index>0</Phase_Index>
+					<File_Name>./exports/MAD_H300_Nominal_Trajectory.xlsx</File_Name>
+					<Sheet_ID>Sheet1</Sheet_ID>
+					<Data_Cell>J2</Data_Cell>
+					<Consecutive>Column</Consecutive>
+					<Delete_Remainder>No</Delete_Remainder>
+				</Item>
+			</Data_Export>
+		</Excel>
+	</Item>
+</Exports>
